@@ -1,0 +1,619 @@
+{
+  "video": null,
+  "created_utc": "2026-07-04T13:44:14.032775+00:00",
+  "stages": {
+    "content_extraction": {
+      "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+      "mode": "local",
+      "frames_processed": 0,
+      "elapsed_sec": 0.0
+    }
+  },
+  "frames": [
+    {
+      "frame_id": "frame_0001",
+      "index": 0,
+      "timestamp_sec": 0,
+      "timestamp_hms": "00:00:00",
+      "path": "/content/stage3/frames_kept/frame_0001.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure shows a person wearing a black hoodie with \"Geeks\" printed on it, sitting at a desk with a laptop and a microphone labeled \"R\u00d8DE.\" The background includes framed motivational quotes and shelves holding books and decorative items.",
+        "code": null,
+        "diagram_description": null,
+        "frame_type": "talking_head",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a person wearing a black hoodie with \"Geeks\" printed on it, sitting at a desk with a laptop and a microphone labeled \"R\u00d8DE.\" The background includes framed motivational quotes and shelves holding books and decorative items."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 31.0
+      }
+    },
+    {
+      "frame_id": "frame_0002",
+      "index": 1,
+      "timestamp_sec": 30,
+      "timestamp_hms": "00:00:30",
+      "path": "/content/stage3/frames_kept/frame_0002.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure shows a network with nodes labeled A through G. Node A is connected to node B, which is also connected to node D. Node E is connected to both nodes C and F. Node G is connected to both nodes D and F. The connections form a complex web of relationships between the nodes.",
+        "code": null,
+        "diagram_description": null,
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a network with nodes labeled A through G. Node A is connected to node B, which is also connected to node D. Node E is connected to both nodes C and F. Node G is connected to both nodes D and F. The connections form a complex web of relationships between the nodes."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 33.9
+      }
+    },
+    {
+      "frame_id": "frame_0003",
+      "index": 2,
+      "timestamp_sec": 60,
+      "timestamp_hms": "00:01:00",
+      "path": "/content/stage3/frames_kept/frame_0003.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": "BFS Traversal",
+        "content_text": "Graph with BFS traversal starting from node 1.",
+        "code": null,
+        "diagram_description": "A graph with nodes 1 through 5 and their connections as described.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "This frame shows a simple graph with BFS (Breadth-First Search) traversal. The graph has nodes labeled 1 through 5, with edges connecting them as follows:\n\n- Node 1 is connected to nodes 2 and 3.\n- Node 2 is connected to nodes 1, 4, and 5.\n- Node 3 is connected to node 1.\n- Node 4 is connected to nodes 2 and 5.\n- Node 5 is connected to nodes 2 and 4.\n\nThe BFS traversal starts at node 1 and explores all vertices level by level, visiting each vertex before moving on to the next level."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 37.9
+      }
+    },
+    {
+      "frame_id": "frame_0004",
+      "index": 3,
+      "timestamp_sec": 90,
+      "timestamp_hms": "00:01:30",
+      "path": "/content/stage3/frames_kept/frame_0004.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure shows a network diagram with nodes labeled A, B, C, D, E, F, and G. Node A has an arrow pointing to node B, indicating a connection between them. Node D has arrows pointing to nodes E and G, showing connections to these nodes. Node F has an arrow pointing to node C, indicating a direct connection.",
+        "code": null,
+        "diagram_description": "Network diagram illustrating connections between nodes A, B, C, D, E, F, and G.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a network diagram with nodes labeled A, B, C, D, E, F, and G. Node A has an arrow pointing to node B, indicating a connection between them. Node D has arrows pointing to nodes E and G, showing connections to these nodes. Node F has an arrow pointing to node C, indicating a direct connection. The diagram illustrates the relationships and connections among the nodes within the network."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 38.7
+      }
+    },
+    {
+      "frame_id": "frame_0005",
+      "index": 4,
+      "timestamp_sec": 120,
+      "timestamp_hms": "00:02:00",
+      "path": "/content/stage3/frames_kept/frame_0005.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure shows a network diagram with nodes labeled A through G. Node D is highlighted in green, indicating its central position in the network. Arrows indicate connections between nodes, with arrows pointing from node D to nodes E, C, and G, and from node B to node D.",
+        "code": null,
+        "diagram_description": "Network diagram showing connections between nodes A-G, with node D highlighted as central and arrows indicating directional connections.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a network diagram with nodes labeled A through G. Node D is highlighted in green, indicating its central position in the network. Arrows indicate connections between nodes, with arrows pointing from node D to nodes E, C, and G, and from node B to node D. The overall structure illustrates the relationships and flow within the network."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 35.5
+      }
+    },
+    {
+      "frame_id": "frame_0006",
+      "index": 5,
+      "timestamp_sec": 150,
+      "timestamp_hms": "00:02:30",
+      "path": "/content/stage3/frames_kept/frame_0006.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure shows a network with labeled nodes A through G. Node A is connected to node B, which is also connected to node D. Node D is further connected to nodes E and G, while node F is directly connected to node G.",
+        "code": null,
+        "diagram_description": null,
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a network with labeled nodes A through G. Node A is connected to node B, which is also connected to node D. Node D is further connected to nodes E and G, while node F is directly connected to node G. The connections between these nodes form a network structure."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 29.9
+      }
+    },
+    {
+      "frame_id": "frame_0007",
+      "index": 6,
+      "timestamp_sec": 180,
+      "timestamp_hms": "00:03:00",
+      "path": "/content/stage3/frames_kept/frame_0007.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "Representation of nodes and their connections using a hash map:\n\n- A: [B,D]\n- B: []\n- C: []\n- D: [E,G]\n- E: [C]\n- F: [C]",
+        "code": null,
+        "diagram_description": "Graph structure showing nodes and their connections.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "This frame shows a representation of nodes and their connections using a hash map. The key-value pairs represent nodes and their adjacent nodes:\n\n- A: [B,D]\n- B: []\n- C: []\n- D: [E,G]\n- E: [C]\n- F: [C]\n\nThe structure illustrates a graph where each node (A, B, C, D, E, F) has a list of its neighboring nodes. Nodes B, C, and F have no outgoing edges, while other nodes have connections to one or more nodes."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 38.4
+      }
+    },
+    {
+      "frame_id": "frame_0008",
+      "index": 7,
+      "timestamp_sec": 210,
+      "timestamp_hms": "00:03:30",
+      "path": "/content/stage3/frames_kept/frame_0008.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": "DFS vs Another Algorithm Comparison",
+        "content_text": "Comparison of DFS and another algorithm showing performance metrics like time complexity and space complexity.",
+        "code": null,
+        "diagram_description": "Performance comparison graph showing DFS's time and space complexity against another algorithm.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a comparison between DFS (Depth First Search) and another algorithm, highlighting their performance metrics such as time complexity and space complexity. Key variables include the number of nodes processed versus the depth of recursion, with DFS typically requiring more memory but potentially fewer recursive calls compared to breadth-first search methods."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 29.3
+      }
+    },
+    {
+      "frame_id": "frame_0009",
+      "index": 8,
+      "timestamp_sec": 240,
+      "timestamp_hms": "00:04:00",
+      "path": "/content/stage3/frames_kept/frame_0009.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure shows a network diagram with nodes labeled A, B, C, D, E, F, and G. Node A has an arrow pointing to node B, indicating a connection between them. Node D has arrows pointing to nodes E and G, while node G has an arrow pointing to node F.",
+        "code": null,
+        "diagram_description": "Network diagram showing connections between nodes A, B, C, D, E, F, and G.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a network diagram with nodes labeled A, B, C, D, E, F, and G. Node A has an arrow pointing to node B, indicating a connection between them. Node D has arrows pointing to nodes E and G, while node G has an arrow pointing to node F. The diagram illustrates the relationships and connections among these nodes within the network."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 36.4
+      }
+    },
+    {
+      "frame_id": "frame_0010",
+      "index": 9,
+      "timestamp_sec": 270,
+      "timestamp_hms": "00:04:30",
+      "path": "/content/stage3/frames_kept/frame_0010.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure shows a network diagram with nodes labeled A through G. Node A has two outgoing edges to nodes B and D. Node D has an edge to node E, and another to node G. Node E has an edge to node C. Node G has an edge to node F.",
+        "code": null,
+        "diagram_description": "A directed graph showing connections between nodes A through G.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a network diagram with nodes labeled A through G. Node A has two outgoing edges to nodes B and D. Node D has an edge to node E, and another to node G. Node E has an edge to node C. Node G has an edge to node F. The diagram illustrates the connections between these nodes in a directed graph."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 34.1
+      }
+    },
+    {
+      "frame_id": "frame_0011",
+      "index": 10,
+      "timestamp_sec": 300,
+      "timestamp_hms": "00:05:00",
+      "path": "/content/stage3/frames_kept/frame_0011.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure shows a network diagram with nodes labeled A, B, C, D, E, F, and G. Node A has an arrow pointing to node B, indicating a connection or relationship between them. Similarly, node D has arrows pointing to nodes E and G, suggesting connections or dependencies. Node F also has an arrow pointing to it, likely indicating another connection within the network.",
+        "code": null,
+        "diagram_description": "A directed graph with nodes A, B, C, D, E, F, and G, showing connections between nodes as indicated by arrows.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a network diagram with nodes labeled A, B, C, D, E, F, and G. Node A has an arrow pointing to node B, indicating a connection or relationship between them. Similarly, node D has arrows pointing to nodes E and G, suggesting connections or dependencies. Node F also has an arrow pointing to it, likely indicating another connection within the network. The overall structure represents a directed graph where each node can be connected to one or more other nodes through directed edges."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 43.1
+      }
+    },
+    {
+      "frame_id": "frame_0014",
+      "index": 13,
+      "timestamp_sec": 390,
+      "timestamp_hms": "00:06:30",
+      "path": "/content/stage3/frames_kept/frame_0014.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": "Comparison of BFS and DFS",
+        "content_text": "Traversal Methods in Graph Search Algorithms",
+        "diagram_description": "Comparison of BFS and DFS traversal methods.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure illustrates the comparison between Breadth-First Search (BFS) and Depth-First Search (DFS), showing their respective traversal methods in graph search algorithms."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 22.8
+      }
+    },
+    {
+      "frame_id": "frame_0015",
+      "index": 14,
+      "timestamp_sec": 420,
+      "timestamp_hms": "00:07:00",
+      "path": "/content/stage3/frames_kept/frame_0015.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "bbox_2d": [
+          48,
+          39,
+          975,
+          694
+        ],
+        "caption": "sub-figure 1",
+        "frame_type": "other",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a comparison between two algorithms, DFS (Depth-First Search) and another unspecified algorithm, highlighting their performance metrics such as time complexity and space usage. Key variables include the number of nodes processed and the depth of recursion, with DFS typically showing linear time complexity and moderate space usage compared to other algorithms like breadth-first search which might have higher space requirements due to queue usage.\n\nContext read from the figure: The figure compares DFS (Depth-First Search) with another algorithm, showing performance metrics including time complexity and space usage.\n\nFirst localize each sub-figure as a JSON list of {\"bbox_2d\":[x1,y1,x2,y2], \"caption\":...}, coords normalized 0-1000, then give an overall 'Summary:' of the whole figure."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 39.2
+      }
+    },
+    {
+      "frame_id": "frame_0016",
+      "index": 15,
+      "timestamp_sec": 450,
+      "timestamp_hms": "00:07:30",
+      "path": "/content/stage3/frames_kept/frame_0016.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "bbox_2d": [
+          45,
+          37,
+          986,
+          888
+        ],
+        "caption": "sub-figure 1",
+        "frame_type": "other",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a stack data structure with elements A and B. The stack operations include pushing (adding) elements to the top of the stack and popping (removing) elements from the top. Key variables include the stack's depth and the order of elements added and removed.\n\nContext read from the figure: The figure illustrates a stack operation with elements A and B, showing push and pop actions on the stack.\n\nFirst localize each sub-figure as a JSON list of {\"bbox_2d\":[x1,y1,x2,y2], \"caption\":...}, coords normalized 0-1000, then give an overall 'Summary:' of the whole figure."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 35.3
+      }
+    },
+    {
+      "frame_id": "frame_0017",
+      "index": 16,
+      "timestamp_sec": 480,
+      "timestamp_hms": "00:08:00",
+      "path": "/content/stage3/frames_kept/frame_0017.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": "Stack Data Structure and Graph Traversal",
+        "content_text": "This figure illustrates a stack data structure and a graph traversal algorithm. On the left, a stack is depicted with elements E and B, showing the last-in-first-out principle. On the right, a graph with nodes A, D, E, C, F, G is shown, with arrows indicating directed edges between nodes.",
+        "diagram_description": "Traversal algorithm starting at node A, moving to node D, then to node E, following directed edges to visit all reachable nodes.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "This figure illustrates a stack data structure and a graph traversal algorithm. On the left, a stack is depicted with elements E and B, showing the last-in-first-out principle. On the right, a graph with nodes A, D, E, C, F, G is shown, with arrows indicating directed edges between nodes. The traversal algorithm starts at node A, moving to node D, then to node E, and so on, following the directed edges until all reachable nodes are visited."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 40.4
+      }
+    },
+    {
+      "frame_id": "frame_0018",
+      "index": 17,
+      "timestamp_sec": 510,
+      "timestamp_hms": "00:08:30",
+      "path": "/content/stage3/frames_kept/frame_0018.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure illustrates a stack data structure with elements A, D, G, F, E, and B. The sequence of operations shows the stack's push and pop actions, resulting in the order B, D, G, F, E.",
+        "code": null,
+        "diagram_description": "Stack operations showing push and pop actions resulting in the order B, D, G, F, E.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure illustrates a stack data structure with elements A, D, G, F, E, and B. The sequence of operations shows the stack's push and pop actions, resulting in the order B, D, G, F, E. Key variables include the stack's depth and the sequence of element manipulations."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 33.0
+      }
+    },
+    {
+      "frame_id": "frame_0019",
+      "index": 18,
+      "timestamp_sec": 540,
+      "timestamp_hms": "00:09:00",
+      "path": "/content/stage3/frames_kept/frame_0019.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "This frame shows a diagram representing a queue data structure with two key components labeled F (front) and R (rear). The diagram illustrates the circular nature of the queue where elements can be added at the rear and removed from the front, with arrows indicating the direction of movement.",
+        "code": null,
+        "diagram_description": "Circular queue diagram showing elements moving between front (F) and rear (R) positions, with arrows indicating the direction of movement.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "This frame shows a diagram representing a queue data structure with two key components labeled F (front) and R (rear). The diagram illustrates the circular nature of the queue where elements can be added at the rear and removed from the front, with arrows indicating the direction of movement."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 33.2
+      }
+    },
+    {
+      "frame_id": "frame_0020",
+      "index": 19,
+      "timestamp_sec": 570,
+      "timestamp_hms": "00:09:30",
+      "path": "/content/stage3/frames_kept/frame_0020.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure shows a network diagram with nodes labeled A through G. Node A has an arrow pointing to node B, indicating a connection or relationship between them.",
+        "code": null,
+        "diagram_description": "A network diagram illustrating connections between nodes A and B, with arrows indicating relationships or flows between components.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a network diagram with nodes labeled A through G. Node A has an arrow pointing to node B, indicating a connection or relationship between them. The diagram illustrates the flow or connectivity among these nodes, likely representing a system or process where each node represents a different component or state."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 30.6
+      }
+    },
+    {
+      "frame_id": "frame_0021",
+      "index": 20,
+      "timestamp_sec": 600,
+      "timestamp_hms": "00:10:00",
+      "path": "/content/stage3/frames_kept/frame_0021.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure shows a network diagram with nodes labeled A, B, D, E, G, C, and F. Node A has an arrow pointing to node B, indicating a connection between them. Node D has arrows pointing to both nodes E and G, showing connections to these nodes. Nodes E and G have arrows pointing to node C, indicating their connections to C.",
+        "code": null,
+        "diagram_description": "Network diagram illustrating connections between nodes A, B, D, E, G, C, and F.",
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a network diagram with nodes labeled A, B, D, E, G, C, and F. Node A has an arrow pointing to node B, indicating a connection between them. Node D has arrows pointing to both nodes E and G, showing connections to these nodes. Nodes E and G have arrows pointing to node C, indicating their connections to C. The diagram illustrates the relationships and connections among these nodes within the network."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 39.5
+      }
+    },
+    {
+      "frame_id": "frame_0022",
+      "index": 21,
+      "timestamp_sec": 630,
+      "timestamp_hms": "00:10:30",
+      "path": "/content/stage3/frames_kept/frame_0022.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure shows a network diagram with nodes labeled A through G. Node F is highlighted in green, indicating its selection or focus within the network. Below the diagram, there is a sequence of letters (A, B, D, E, G, C) that likely represent the order or steps related to the network's structure or function.",
+        "code": null,
+        "diagram_description": null,
+        "frame_type": "diagram",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a network diagram with nodes labeled A through G. Node F is highlighted in green, indicating its selection or focus within the network. Below the diagram, there is a sequence of letters (A, B, D, E, G, C) that likely represent the order or steps related to the network's structure or function."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 33.8
+      }
+    },
+    {
+      "frame_id": "frame_0023",
+      "index": 22,
+      "timestamp_sec": 660,
+      "timestamp_hms": "00:11:00",
+      "path": "/content/stage3/frames_kept/frame_0023.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "Python 3 code editor showing a graph defined as a dictionary with nodes (a, b, c, d, e, f, g) and their adjacent nodes.",
+        "code": "```python\ngraph = {'a': ['b', 'c'], 'b': ['a', 'd'], 'c': ['a', 'e'], 'd': ['b', 'f'], 'e': ['c', 'g'], 'f': ['d'], 'g': ['e']}\ndef dfs(graph, start):\n    visited = set()\n    stack = [start]\n    while stack:\n        vertex = stack.pop()\n        if vertex not in visited:\n            visited.add(vertex)\n            stack.extend(graph[vertex] - visited)\n    return visited\n```,",
+        "diagram_description": null,
+        "frame_type": "code_editor",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a Python 3 code editor with a graph defined as a dictionary where keys are nodes (a, b, c, d, e, f, g) and values are lists of adjacent nodes. The code includes a function `dfs()` which stands for Depth-First Search, but no implementation of the DFS algorithm is provided. Below the code, there are buttons labeled \"Copy,\" \"Run,\" and \"Run+URL (Generates URL as well).\""
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 48.0
+      }
+    },
+    {
+      "frame_id": "frame_0024",
+      "index": 23,
+      "timestamp_sec": 690,
+      "timestamp_hms": "00:11:30",
+      "path": "/content/stage3/frames_kept/frame_0024.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "Python 3 code editor interface with a graph traversal algorithm implementation.",
+        "code": "dfs(graph, source)",
+        "diagram_description": "Graph representation as a dictionary and DFS traversal function.",
+        "frame_type": "code_editor",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a Python 3 code editor interface with a graph traversal algorithm implementation. The key components include:\n\n- A graph represented as a dictionary where keys are nodes (e.g., \"a\", \"b\", \"c\") and values are lists of adjacent nodes (e.g., [\"b\", \"d\"] for node \"a\").\n- A function `dfs(graph, source)` for depth-first search traversal starting from a given source node.\n- The code editor displays a partially written function call `dfs(graph, source)`, with an auto-completion dropdown showing possible arguments like 'local', 'source', 'sorted', etc.\n\nAt the bottom, there's an input field labeled \"Input Goes Here..\" and buttons for \"Copy\" and \"Run\". There's also a \"Run+URL (Generates URL as well)\" option, suggesting functionality to share the current code execution state online."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 42.5
+      }
+    },
+    {
+      "frame_id": "frame_0025",
+      "index": 24,
+      "timestamp_sec": 720,
+      "timestamp_hms": "00:12:00",
+      "path": "/content/stage3/frames_kept/frame_0025.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "bbox_2d": [
+          58,
+          0,
+          996,
+          1000
+        ],
+        "caption": "sub-figure 1",
+        "frame_type": "other",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a Python code snippet for implementing Depth-First Search (DFS) on a graph. The key components include:\n\n1. **Graph Representation**: A dictionary `graph` representing an undirected graph with nodes labeled 'a', 'b', 'c', 'd', 'e', 'f', 'g'. Edges are represented by lists of node pairs.\n\n2. **DFS Function Definition**:\n   - `def dfs(graph, source):` - This function takes a graph and a starting node as arguments.\n   - `stack = []:` - Initializes an empty stack.\n   - `stack.append(source):` - Pushes the starting node onto the stack.\n   - `node = stack.pop(-1):` - Pops a node from the stack.\n   - `print(node):` - Prints the popped node.\n\n3. **Code Execution Interface**: Below the code, there are buttons labeled \"Copy,\" \"Run,\" and \"Run+URL,\" indicating options to copy the code, run it, or generate a URL for sharing the execution result.\n\n4. **User Interface Elements**: The interface includes a text input area for user inputs and a circular profile picture placeholder.\n\nKey variables and their values:\n- Graph structure: Nodes ['a', 'b', 'c', 'd', 'e', 'f', 'g'] with edges connecting them.\n- DFS function parameters: `graph`, `source`.\n\nContext read from the figure: The figure illustrates a basic implementation of DFS traversal on a simple graph, focusing on the core algorithmic steps and data structures used.\n\nFirst localize each sub-figure as a JSON list of {\"bbox_2d\":[x1,y1,x2,y2], \"caption\":...}, coords normalized 0-1000, then give an overall 'Summary:' of the whole figure."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 66.6
+      }
+    },
+    {
+      "frame_id": "frame_0026",
+      "index": 25,
+      "timestamp_sec": 750,
+      "timestamp_hms": "00:12:30",
+      "path": "/content/stage3/frames_kept/frame_0026.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "The figure shows a Python 3 code snippet for implementing Depth-First Search (DFS) on a graph. The key components include:\n\n1. Graph Representation: A dictionary `graph` representing an undirected graph with nodes labeled 'a', 'b', 'c', 'd', 'e', 'f', 'g'. Edges are represented by lists of connected nodes.\n\n2. DFS Function Definition:\n- `def dfs(graph, source):` - Defines the DFS function that takes a graph and a starting node as arguments.\n- `stack = []:` - Initializes an empty stack to keep track of nodes to visit.\n- `stack.append(source):` - Pushes the starting node onto the stack.\n- `node = stack.pop(-1):` - Pops a node from the stack.\n- `print(node):` - Prints the current node being processed.\n- `for neighbour in graph[node]:` - Iterates over all neighbors of the current node.\n- `stack.append(nei):` - Pushes each neighbor onto the stack to visit later.",
+        "code": "def dfs(graph, source):\n    stack = []\n    stack.append(source)\n    while stack:\n        node = stack.pop(-1)\n        print(node)\n        for nei in graph[node]:\n            stack.append(nei)",
+        "diagram_description": "Execution of the DFS algorithm on a graph, showing the first node printed as 'neighbour local'.",
+        "frame_type": "code_editor",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a Python 3 code snippet for implementing Depth-First Search (DFS) on a graph. The key components include:\n\n1. **Graph Representation**: A dictionary `graph` representing an undirected graph with nodes labeled 'a', 'b', 'c', 'd', 'e', 'f', 'g'. Edges are represented by lists of connected nodes.\n\n2. **DFS Function Definition**:\n   - `def dfs(graph, source):` - Defines the DFS function that takes a graph and a starting node as arguments.\n   - `stack = []:` - Initializes an empty stack to keep track of nodes to visit.\n   - `stack.append(source):` - Pushes the starting node onto the stack.\n   - `node = stack.pop(-1):` - Pops a node from the stack.\n   - `print(node):` - Prints the current node being processed.\n   - `for neighbour in graph[node]:` - Iterates over all neighbors of the current node.\n   - `stack.append(nei):` - Pushes each neighbor onto the stack to visit later.\n\n3. **Code Execution**: The code is partially executed, showing the first node printed as \"neighbour local\".\n\n4. **User Interface Elements**: Below the code, there are input fields for user input (\"Input Goes Here..\"), a \"Copy\" button, a \"Run\" button, and a \"Run+URL\" button which generates a URL for the execution.\n\n5. **Contextual Clues**: The environment suggests an educational setting, likely a coding tutorial or interactive coding platform where users can run code snippets and see results immediately."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 95.3
+      }
+    },
+    {
+      "frame_id": "frame_0027",
+      "index": 26,
+      "timestamp_sec": 780,
+      "timestamp_hms": "00:13:00",
+      "path": "/content/stage3/frames_kept/frame_0027.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "Python 3 code snippet for implementing Depth-First Search (DFS) on a graph.",
+        "code": "def dfs(graph, source):\n    stack = []\n    stack.append(source)\n\n    while stack:\n        node = stack.pop(-1)\n        print(node)\n\n        for neighbour in graph[node]:\n            stack.append(neighbour)",
+        "diagram_description": null,
+        "frame_type": "code_editor",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a Python 3 code snippet for implementing Depth-First Search (DFS) on a graph. The key components include:\n\n1. **Graph Representation**: A dictionary `graph` representing an undirected graph where keys are nodes and values are lists of adjacent nodes.\n\n2. **DFS Function Definition**:\n   - `def dfs(graph, source):` - Defines the DFS function that takes a graph and a starting node as arguments.\n   - `stack = []:` - Initializes an empty stack to keep track of nodes to visit.\n   - `stack.append(source):` - Pushes the starting node onto the stack.\n   - `while stack:` - Enters a loop that continues until the stack is empty.\n   - `node = stack.pop(-1):` - Pops a node from the stack.\n   - `print(node):` - Prints the current node being visited.\n   - `for neighbour in graph[node]:` - Iterates over all neighbors of the current node.\n   - `stack.append(neighbour):` - Pushes each neighbor onto the stack to visit later.\n\nThis code demonstrates a basic implementation of DFS traversal on a graph."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 54.7
+      }
+    },
+    {
+      "frame_id": "frame_0030",
+      "index": 29,
+      "timestamp_sec": 870,
+      "timestamp_hms": "00:14:30",
+      "path": "/content/stage3/frames_kept/frame_0030.jpg",
+      "status": "kept",
+      "extracted_content": {
+        "slide_title": null,
+        "content_text": "A screenshot of an online platform interface showing 'Time(sec): 0.023', 'Memory(MB): 7.4105625', and 'Output:' with letters 'a', 'b', 'd', 'e', 'g', 'c', and 'f'.",
+        "code": null,
+        "diagram_description": null,
+        "frame_type": "other",
+        "_structured_by": "model",
+        "raw_description": "The figure shows a screenshot of an online platform interface with various sections including \"Time(sec): 0.023\", \"Memory(MB): 7.4105625\", and \"Output:\" displaying letters \"a\", \"b\", \"d\", \"e\", \"g\", \"c\", and \"f\". Below this, there's a footer with links to \"About Us\", \"Careers\", \"Privacy Policy\", and \"Contact Us\" under \"Company\", and \"Algorithms\", \"Data Structures\", \"Languages\", \"CS Subjects\", and \"Video Tutorials\" under \"Learn\". Social media icons for LinkedIn and Twitter are also present at the bottom left corner."
+      },
+      "extraction_meta": {
+        "model": "shemalfoy/qwen2-vl-scicap-lora-adapter-dim_with_textlm",
+        "mode": "local",
+        "structured_by": "model",
+        "elapsed_sec": 42.5
+      }
+    }
+  ]
+}

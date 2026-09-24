@@ -1,0 +1,26 @@
+frame_id,time,type,group,score,matched,best_section,pages,book
+frame_0002,00:00:30,diagram,0,0.718,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0003,00:01:00,diagram,1,0.74,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0004,00:01:30,diagram,2,0.736,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0005,00:02:00,diagram,3,0.716,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0006,00:02:30,diagram,4,0.731,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0007,00:03:00,diagram,5,0.771,True,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0008,00:03:30,diagram,6,0.597,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0009,00:04:00,diagram,7,0.727,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0010,00:04:30,diagram,8,0.777,True,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0011,00:05:00,diagram,9,0.763,True,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0014,00:06:30,diagram,10,0.67,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0015,00:07:00,other,11,0.68,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0016,00:07:30,other,12,0.743,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0017,00:08:00,diagram,13,0.78,True,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0018,00:08:30,diagram,14,0.735,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0019,00:09:00,diagram,15,0.697,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0020,00:09:30,diagram,16,0.73,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0021,00:10:00,diagram,16,0.73,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0022,00:10:30,diagram,17,0.743,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0023,00:11:00,code_editor,18,0.741,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0024,00:11:30,code_editor,19,0.706,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0025,00:12:00,other,20,0.747,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0026,00:12:30,code_editor,20,0.747,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0027,00:13:00,code_editor,20,0.747,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
+frame_0030,00:14:30,other,21,0.654,False,Building a Graph,159–160,Data Structures & Algorithms with JavaScript.pdf
